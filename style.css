@@ -1,0 +1,90 @@
+/* SMOOTH SCROLLING */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 70px; /* space for sticky header */
+}
+
+/* BODY AND FONT */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  line-height: 1.6;
+  background: #f4f4f4;
+  color: #333;
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  background: #222;
+  color: white;
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* NAV LINKS */
+header nav a {
+  color: #00bfff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* SECTIONS */
+section {
+  padding: 30px 20px;       /* smaller padding for less blank space */
+  max-width: 900px;
+  margin: 20px auto;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* SECTION HEADINGS */
+h2 {
+  color: #0055aa;
+  margin-bottom: 20px;
+}
+
+/* PROJECTS */
+.project {
+  margin-bottom: 20px;
+}
+
+.project h3 {
+  margin-top: 0;
+  color: #0055aa;
+}
+
+.project a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #00bfff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.project a:hover {
+  text-decoration: underline;
+}
+
+/* BADGE */
+.badge {
+  background: #00bfff;
+  color: white;
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+/* CONTACT */
+#contact p {
+  margin: 8px 0;
+}
