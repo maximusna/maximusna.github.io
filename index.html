@@ -1,52 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Maximus Napier's Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maximus Napier | Portfolio</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+  
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- HEADER / NAVIGATION -->
+
+  <nav class="nav-bar">
+    <a href="#projects">Projects</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div id="particles-js"></div>
+
   <header>
-    <h1>Maximus Napier</h1>
-    <p>Aspiring Cybersecurity & IT Professional</p>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
+    <h1 class="site-title">Maximus Napier</h1>
+    <p class="site-tagline">
+      <span id="typed-text"></span><span class="cursor"></span>
+    </p>
   </header>
 
-  <!-- ABOUT SECTION -->
-  <section id="about">
-    <h2>About Me</h2>
-    <p>My name is Maximus Napier. I'm passionate about technology, cybersecurity, and IT systems. I enjoy building homelabs and learning new tools that prepare me for a future career in information security.</p>
-  </section>
+  <main class="grid-layout">
+    
+    <section class="projects" id="projects">
+      <ul>
+        <li>
+          <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <p>My first project: interactive portfolio with animations and particles.</p>
+            <a href="https://github.com/maximusna/portfolio" target="_blank">View on GitHub</a>
+          </div>
+        </li>
+        <li>
+          <div class="project-card">
+            <h3>Project 2</h3>
+            <p>Short description of project 2.</p>
+            <a href="https://github.com/yourusername/project2" target="_blank">View on GitHub</a>
+          </div>
+        </li>
+      </ul>
+    </section>
 
-  <!-- PROJECTS SECTION -->
-  <section id="projects">
-    <h2>Projects</h2>
+    <section class="about" id="about">
+      <h2>About Me</h2>
+      <p>Hi! I'm Maximus, a cybersecurity enthusiast passionate about building cool projects and exploring new tech.</p>
+    </section>
 
-    <div class="project">
-      <h3>Project Title 1 <span class="badge">Coming Soon</span></h3>
-      <p>Short description of what this project is about.</p>
-      <a href="#" target="_blank">View Project</a>
-    </div>
+    <section class="contact" id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:napiermax1@gmail.com">napiermax1@gmail.com</a></p>
+    </section>
+  </main>
 
-    <div class="project">
-      <h3>Project Title 2 <span class="badge">Coming Soon</span></h3>
-      <p>Placeholder project. Add images, GitHub links, or demos when ready.</p>
-      <a href="#" target="_blank">View Project</a>
-    </div>
-  </section>
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.12.0/tsparticles.bundle.min.js"></script>
+  <script src="script.js"></script>
 
-  <!-- CONTACT SECTION -->
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:napiermax1@gmail.com">napiermax1@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/maximus-napier-5a028833a/" target="_blank">linkedin.com/in/MaximusNapier</a></p>
-    <p>GitHub: <a href="https://github.com/maximusna/maximusna.github.io" target="_blank">github.com/Maximusna</a></p>
-  </section>
 </body>
 </html>
